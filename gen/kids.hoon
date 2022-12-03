@@ -2,8 +2,8 @@
 ::  sorted by last contact time.
 
 :-  %say
-|=  [[now=time @ our=@p *] * ~]
-:-  %ship
+|=  [[now=time @ our=@p *] ~ ~]
+:-  %noun
 |^
 ^-  (list peer-qos)
 (sort (turn (skim peer-names-all is-child) get-qos) asc)
